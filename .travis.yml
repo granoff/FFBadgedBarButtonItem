@@ -1,2 +1,2 @@
 language: objective-c
-script: xcodebuild -project FFBadgedBarButtonItem/FFBadgedBarButtonItem.xcodeproj/ -sdk iphonesimulator -scheme FFBadgedBarButtonItem ONLY_ACTIVE_ARCH=NO build
+script: xcodebuild -project FFBadgedBarButtonItem.xcodeproj/ -sdk iphonesimulator -scheme FFBadgedBarButtonItem ONLY_ACTIVE_ARCH=NO build
