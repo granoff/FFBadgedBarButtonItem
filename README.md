@@ -20,6 +20,8 @@ allows you to create a button with a custom image that supports badging.
 
 Using `FFBadgedBarButtonItem` is easy:
 
+Add `FFBadgedBarButtonItem.{h,m}` to your project, and include the `.h` file where you need it.
+
 Create the button:
 
 ```
