@@ -21,6 +21,7 @@
 		4D6B9BCA18E479E100E4C0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BAC18E479E000E4C0BE /* UIKit.framework */; };
 		4D6B9BD218E479E100E4C0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B9BD018E479E100E4C0BE /* InfoPlist.strings */; };
 		4D6B9BD418E479E100E4C0BE /* FFBadgedBarButtonItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BD318E479E100E4C0BE /* FFBadgedBarButtonItemTests.m */; };
+		4D6B9BDF18E47A2E00E4C0BE /* FFBadgedBarButtonItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BDE18E47A2E00E4C0BE /* FFBadgedBarButtonItem.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		4D6B9BCF18E479E100E4C0BE /* FFBadgedBarButtonItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFBadgedBarButtonItemTests-Info.plist"; sourceTree = "<group>"; };
 		4D6B9BD118E479E100E4C0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		4D6B9BD318E479E100E4C0BE /* FFBadgedBarButtonItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBadgedBarButtonItemTests.m; sourceTree = "<group>"; };
+		4D6B9BDD18E47A2E00E4C0BE /* FFBadgedBarButtonItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FFBadgedBarButtonItem.h; sourceTree = SOURCE_ROOT; };
+		4D6B9BDE18E47A2E00E4C0BE /* FFBadgedBarButtonItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FFBadgedBarButtonItem.m; sourceTree = SOURCE_ROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -117,6 +120,8 @@
 				4D6B9BBA18E479E100E4C0BE /* Main.storyboard */,
 				4D6B9BBD18E479E100E4C0BE /* ViewController.h */,
 				4D6B9BBE18E479E100E4C0BE /* ViewController.m */,
+				4D6B9BDD18E47A2E00E4C0BE /* FFBadgedBarButtonItem.h */,
+				4D6B9BDE18E47A2E00E4C0BE /* FFBadgedBarButtonItem.m */,
 				4D6B9BC018E479E100E4C0BE /* Images.xcassets */,
 				4D6B9BAF18E479E100E4C0BE /* Supporting Files */,
 			);
@@ -250,6 +255,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D6B9BBF18E479E100E4C0BE /* ViewController.m in Sources */,
+				4D6B9BDF18E47A2E00E4C0BE /* FFBadgedBarButtonItem.m in Sources */,
 				4D6B9BB918E479E100E4C0BE /* AppDelegate.m in Sources */,
 				4D6B9BB518E479E100E4C0BE /* main.m in Sources */,
 			);
