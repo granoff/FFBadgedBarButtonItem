@@ -1,0 +1,471 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		4D6B9BA918E479E000E4C0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BA818E479E000E4C0BE /* Foundation.framework */; };
+		4D6B9BAB18E479E000E4C0BE /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BAA18E479E000E4C0BE /* CoreGraphics.framework */; };
+		4D6B9BAD18E479E000E4C0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BAC18E479E000E4C0BE /* UIKit.framework */; };
+		4D6B9BB318E479E100E4C0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B9BB118E479E100E4C0BE /* InfoPlist.strings */; };
+		4D6B9BB518E479E100E4C0BE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BB418E479E100E4C0BE /* main.m */; };
+		4D6B9BB918E479E100E4C0BE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BB818E479E100E4C0BE /* AppDelegate.m */; };
+		4D6B9BBC18E479E100E4C0BE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B9BBA18E479E100E4C0BE /* Main.storyboard */; };
+		4D6B9BBF18E479E100E4C0BE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BBE18E479E100E4C0BE /* ViewController.m */; };
+		4D6B9BC118E479E100E4C0BE /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B9BC018E479E100E4C0BE /* Images.xcassets */; };
+		4D6B9BC818E479E100E4C0BE /* XCTest.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BC718E479E100E4C0BE /* XCTest.framework */; };
+		4D6B9BC918E479E100E4C0BE /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BA818E479E000E4C0BE /* Foundation.framework */; };
+		4D6B9BCA18E479E100E4C0BE /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4D6B9BAC18E479E000E4C0BE /* UIKit.framework */; };
+		4D6B9BD218E479E100E4C0BE /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 4D6B9BD018E479E100E4C0BE /* InfoPlist.strings */; };
+		4D6B9BD418E479E100E4C0BE /* FFBadgedBarButtonItemTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 4D6B9BD318E479E100E4C0BE /* FFBadgedBarButtonItemTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		4D6B9BCB18E479E100E4C0BE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 4D6B9B9D18E479E000E4C0BE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 4D6B9BA418E479E000E4C0BE;
+			remoteInfo = FFBadgedBarButtonItem;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		4D6B9BA518E479E000E4C0BE /* FFBadgedBarButtonItem.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFBadgedBarButtonItem.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6B9BA818E479E000E4C0BE /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
+		4D6B9BAA18E479E000E4C0BE /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		4D6B9BAC18E479E000E4C0BE /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+		4D6B9BB018E479E100E4C0BE /* FFBadgedBarButtonItem-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFBadgedBarButtonItem-Info.plist"; sourceTree = "<group>"; };
+		4D6B9BB218E479E100E4C0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D6B9BB418E479E100E4C0BE /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		4D6B9BB618E479E100E4C0BE /* FFBadgedBarButtonItem-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "FFBadgedBarButtonItem-Prefix.pch"; sourceTree = "<group>"; };
+		4D6B9BB718E479E100E4C0BE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		4D6B9BB818E479E100E4C0BE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		4D6B9BBB18E479E100E4C0BE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		4D6B9BBD18E479E100E4C0BE /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		4D6B9BBE18E479E100E4C0BE /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		4D6B9BC018E479E100E4C0BE /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		4D6B9BC618E479E100E4C0BE /* FFBadgedBarButtonItemTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = FFBadgedBarButtonItemTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		4D6B9BC718E479E100E4C0BE /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		4D6B9BCF18E479E100E4C0BE /* FFBadgedBarButtonItemTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "FFBadgedBarButtonItemTests-Info.plist"; sourceTree = "<group>"; };
+		4D6B9BD118E479E100E4C0BE /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
+		4D6B9BD318E479E100E4C0BE /* FFBadgedBarButtonItemTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = FFBadgedBarButtonItemTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		4D6B9BA218E479E000E4C0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BAB18E479E000E4C0BE /* CoreGraphics.framework in Frameworks */,
+				4D6B9BAD18E479E000E4C0BE /* UIKit.framework in Frameworks */,
+				4D6B9BA918E479E000E4C0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6B9BC318E479E100E4C0BE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BC818E479E100E4C0BE /* XCTest.framework in Frameworks */,
+				4D6B9BCA18E479E100E4C0BE /* UIKit.framework in Frameworks */,
+				4D6B9BC918E479E100E4C0BE /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		4D6B9B9C18E479E000E4C0BE = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BAE18E479E000E4C0BE /* FFBadgedBarButtonItem */,
+				4D6B9BCD18E479E100E4C0BE /* FFBadgedBarButtonItemTests */,
+				4D6B9BA718E479E000E4C0BE /* Frameworks */,
+				4D6B9BA618E479E000E4C0BE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		4D6B9BA618E479E000E4C0BE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BA518E479E000E4C0BE /* FFBadgedBarButtonItem.app */,
+				4D6B9BC618E479E100E4C0BE /* FFBadgedBarButtonItemTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		4D6B9BA718E479E000E4C0BE /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BA818E479E000E4C0BE /* Foundation.framework */,
+				4D6B9BAA18E479E000E4C0BE /* CoreGraphics.framework */,
+				4D6B9BAC18E479E000E4C0BE /* UIKit.framework */,
+				4D6B9BC718E479E100E4C0BE /* XCTest.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		4D6B9BAE18E479E000E4C0BE /* FFBadgedBarButtonItem */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BB718E479E100E4C0BE /* AppDelegate.h */,
+				4D6B9BB818E479E100E4C0BE /* AppDelegate.m */,
+				4D6B9BBA18E479E100E4C0BE /* Main.storyboard */,
+				4D6B9BBD18E479E100E4C0BE /* ViewController.h */,
+				4D6B9BBE18E479E100E4C0BE /* ViewController.m */,
+				4D6B9BC018E479E100E4C0BE /* Images.xcassets */,
+				4D6B9BAF18E479E100E4C0BE /* Supporting Files */,
+			);
+			path = FFBadgedBarButtonItem;
+			sourceTree = "<group>";
+		};
+		4D6B9BAF18E479E100E4C0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BB018E479E100E4C0BE /* FFBadgedBarButtonItem-Info.plist */,
+				4D6B9BB118E479E100E4C0BE /* InfoPlist.strings */,
+				4D6B9BB418E479E100E4C0BE /* main.m */,
+				4D6B9BB618E479E100E4C0BE /* FFBadgedBarButtonItem-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		4D6B9BCD18E479E100E4C0BE /* FFBadgedBarButtonItemTests */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BD318E479E100E4C0BE /* FFBadgedBarButtonItemTests.m */,
+				4D6B9BCE18E479E100E4C0BE /* Supporting Files */,
+			);
+			path = FFBadgedBarButtonItemTests;
+			sourceTree = "<group>";
+		};
+		4D6B9BCE18E479E100E4C0BE /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D6B9BCF18E479E100E4C0BE /* FFBadgedBarButtonItemTests-Info.plist */,
+				4D6B9BD018E479E100E4C0BE /* InfoPlist.strings */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		4D6B9BA418E479E000E4C0BE /* FFBadgedBarButtonItem */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6B9BD718E479E100E4C0BE /* Build configuration list for PBXNativeTarget "FFBadgedBarButtonItem" */;
+			buildPhases = (
+				4D6B9BA118E479E000E4C0BE /* Sources */,
+				4D6B9BA218E479E000E4C0BE /* Frameworks */,
+				4D6B9BA318E479E000E4C0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FFBadgedBarButtonItem;
+			productName = FFBadgedBarButtonItem;
+			productReference = 4D6B9BA518E479E000E4C0BE /* FFBadgedBarButtonItem.app */;
+			productType = "com.apple.product-type.application";
+		};
+		4D6B9BC518E479E100E4C0BE /* FFBadgedBarButtonItemTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4D6B9BDA18E479E100E4C0BE /* Build configuration list for PBXNativeTarget "FFBadgedBarButtonItemTests" */;
+			buildPhases = (
+				4D6B9BC218E479E100E4C0BE /* Sources */,
+				4D6B9BC318E479E100E4C0BE /* Frameworks */,
+				4D6B9BC418E479E100E4C0BE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				4D6B9BCC18E479E100E4C0BE /* PBXTargetDependency */,
+			);
+			name = FFBadgedBarButtonItemTests;
+			productName = FFBadgedBarButtonItemTests;
+			productReference = 4D6B9BC618E479E100E4C0BE /* FFBadgedBarButtonItemTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		4D6B9B9D18E479E000E4C0BE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+				ORGANIZATIONNAME = "Hawk iMedia";
+				TargetAttributes = {
+					4D6B9BC518E479E100E4C0BE = {
+						TestTargetID = 4D6B9BA418E479E000E4C0BE;
+					};
+				};
+			};
+			buildConfigurationList = 4D6B9BA018E479E000E4C0BE /* Build configuration list for PBXProject "FFBadgedBarButtonItem" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 4D6B9B9C18E479E000E4C0BE;
+			productRefGroup = 4D6B9BA618E479E000E4C0BE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				4D6B9BA418E479E000E4C0BE /* FFBadgedBarButtonItem */,
+				4D6B9BC518E479E100E4C0BE /* FFBadgedBarButtonItemTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		4D6B9BA318E479E000E4C0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BC118E479E100E4C0BE /* Images.xcassets in Resources */,
+				4D6B9BB318E479E100E4C0BE /* InfoPlist.strings in Resources */,
+				4D6B9BBC18E479E100E4C0BE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6B9BC418E479E100E4C0BE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BD218E479E100E4C0BE /* InfoPlist.strings in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		4D6B9BA118E479E000E4C0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BBF18E479E100E4C0BE /* ViewController.m in Sources */,
+				4D6B9BB918E479E100E4C0BE /* AppDelegate.m in Sources */,
+				4D6B9BB518E479E100E4C0BE /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		4D6B9BC218E479E100E4C0BE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4D6B9BD418E479E100E4C0BE /* FFBadgedBarButtonItemTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		4D6B9BCC18E479E100E4C0BE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 4D6B9BA418E479E000E4C0BE /* FFBadgedBarButtonItem */;
+			targetProxy = 4D6B9BCB18E479E100E4C0BE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		4D6B9BB118E479E100E4C0BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6B9BB218E479E100E4C0BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+		4D6B9BBA18E479E100E4C0BE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6B9BBB18E479E100E4C0BE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		4D6B9BD018E479E100E4C0BE /* InfoPlist.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				4D6B9BD118E479E100E4C0BE /* en */,
+			);
+			name = InfoPlist.strings;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		4D6B9BD518E479E100E4C0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		4D6B9BD618E479E100E4C0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		4D6B9BD818E479E100E4C0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Debug;
+		};
+		4D6B9BD918E479E100E4C0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				WRAPPER_EXTENSION = app;
+			};
+			name = Release;
+		};
+		4D6B9BDB18E479E100E4C0BE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFBadgedBarButtonItem.app/FFBadgedBarButtonItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = "FFBadgedBarButtonItemTests/FFBadgedBarButtonItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Debug;
+		};
+		4D6B9BDC18E479E100E4C0BE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(BUILT_PRODUCTS_DIR)/FFBadgedBarButtonItem.app/FFBadgedBarButtonItem";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+					"$(DEVELOPER_FRAMEWORKS_DIR)",
+				);
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
+				INFOPLIST_FILE = "FFBadgedBarButtonItemTests/FFBadgedBarButtonItemTests-Info.plist";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUNDLE_LOADER)";
+				WRAPPER_EXTENSION = xctest;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		4D6B9BA018E479E000E4C0BE /* Build configuration list for PBXProject "FFBadgedBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6B9BD518E479E100E4C0BE /* Debug */,
+				4D6B9BD618E479E100E4C0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4D6B9BD718E479E100E4C0BE /* Build configuration list for PBXNativeTarget "FFBadgedBarButtonItem" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6B9BD818E479E100E4C0BE /* Debug */,
+				4D6B9BD918E479E100E4C0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		4D6B9BDA18E479E100E4C0BE /* Build configuration list for PBXNativeTarget "FFBadgedBarButtonItemTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4D6B9BDB18E479E100E4C0BE /* Debug */,
+				4D6B9BDC18E479E100E4C0BE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 4D6B9B9D18E479E000E4C0BE /* Project object */;
+}
