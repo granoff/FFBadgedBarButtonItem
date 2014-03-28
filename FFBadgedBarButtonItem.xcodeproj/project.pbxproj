@@ -385,6 +385,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
 				INFOPLIST_FILE = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -398,6 +399,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Prefix.pch";
 				INFOPLIST_FILE = "FFBadgedBarButtonItem/FFBadgedBarButtonItem-Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				WRAPPER_EXTENSION = app;
 			};
@@ -462,6 +464,7 @@
 				4D6B9BD918E479E100E4C0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		4D6B9BDA18E479E100E4C0BE /* Build configuration list for PBXNativeTarget "FFBadgedBarButtonItemTests" */ = {
 			isa = XCConfigurationList;
@@ -470,6 +473,7 @@
 				4D6B9BDC18E479E100E4C0BE /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
