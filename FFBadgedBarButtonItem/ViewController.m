@@ -7,7 +7,7 @@
 //
 
 #import "ViewController.h"
-#import "FFBadgedBarButtonItem.h"
+#import "FFBadgedBarButtonItem_Demo-Swift.h"
 
 @interface ViewController ()
 @property (strong, nonatomic) IBOutlet UIStepper *stepper;
@@ -20,9 +20,9 @@
 {
     [super viewDidLoad];
 	// Do any additional setup after loading the view, typically from a nib.
-    
+
     self.navigationItem.leftBarButtonItem = [[FFBadgedBarButtonItem alloc] initWithImage:[UIImage imageNamed:@"1099-list-1"] target:self action:@selector(doSomething:)];
-    
+
     _stepper.value = 0;
     
 }
@@ -41,9 +41,15 @@
         msg = [msg stringByAppendingFormat:@" The badge is '%@'", button.badge];
     else
         msg = [msg stringByAppendingString:@" The badge is blank."];
-    
-    UIAlertView *alert = [[UIAlertView alloc] initWithTitle:@"Tapped!" message:msg delegate:nil cancelButtonTitle:@"Cool!" otherButtonTitles:nil];
-    [alert show];
+
+    UIAlertController *alert = [UIAlertController alertControllerWithTitle:@"Tapped!"
+                                                                   message:msg
+                                                            preferredStyle:UIAlertControllerStyleAlert];
+    [alert addAction: [UIAlertAction actionWithTitle:@"Cool!" style:UIAlertActionStyleDefault handler:^(UIAlertAction * _Nonnull action) {
+        ;
+    }]];
+
+    [self presentViewController:alert animated:YES completion:nil];
 }
 
 - (IBAction)stepperValueChanged:(id)sender

@@ -19,3 +19,4 @@ profile
 *.moved-aside
 DerivedData
 *.xcworkspace
+.build/
