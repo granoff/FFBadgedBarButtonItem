@@ -37,7 +37,7 @@ public class FFBadgedBarButtonItem: UIBarButtonItem {
     private var badgeLabel: UILabel
 
     @objc(initWithImage:target:action:)
-    init(with image: UIImage, target: Any, action: Selector) {
+    public init(with image: UIImage, target: Any, action: Selector) {
         let imageView = UIImageView(image: image)
         imageView.frame = .init(x: 0, y: 7, width: image.size.width, height: image.size.height)
 
