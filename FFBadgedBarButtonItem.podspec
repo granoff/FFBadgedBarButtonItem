@@ -11,5 +11,6 @@ Pod::Spec.new do |s|
 
   s.platform = :ios
   s.source_files = 'Sources/FFBadgedBarButtonItem/FFBadgedBarButtonItem.swift'
-  s.requires_arc = true
+  s.swift_version = '6.0'
+  s.ios.deployment_target = '15.0'
 end
